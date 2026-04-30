@@ -1,0 +1,744 @@
+{
+  "classes": [
+    {
+      "id": "c1776953665001a4is",
+      "name": "AVöD I",
+      "meta": {
+        "testName": "Multiple Choice Test",
+        "datum": "2026-04-24",
+        "schuljahr": "2026",
+        "kurs": "AVöD I",
+        "worksheetRichHtml": "",
+        "worksheetHeading": "",
+        "worksheetShowGrid": false,
+        "worksheetInsertions": [],
+        "worksheetFreeMode": false,
+        "worksheetCanvasSnap": true,
+        "worksheetCanvasGridMm": 4,
+        "worksheetPreviewGridMm": 8,
+        "worksheetCanvas": {
+          "items": []
+        }
+      },
+      "groups": [
+        {
+          "id": "g1776981742140",
+          "name": "Kontrollgruppe",
+          "text": "multiple choice",
+          "maxPunkte": 65,
+          "color": "#008efa"
+        },
+        {
+          "id": "g1776981808956",
+          "name": "Vergleichsgruppe",
+          "text": "multiple choice",
+          "maxPunkte": 65,
+          "color": "#db0000"
+        }
+      ],
+      "tasks": [
+        {
+          "id": "t1776982127896",
+          "nr": "1",
+          "label": "Welches rhetorische Stilmittel liegt vor, wenn ein abstrakter Begriff oder ein lebloser Gegenstand vermenschlicht wird (z. B. 'Die Zeit rennt' oder 'Die Sonne lacht')?",
+          "maxPunkte": 20,
+          "kategorie": "",
+          "taskType": "mc",
+          "mcOptions": [
+            "Hyperbel",
+            "Metapher",
+            "Personifikation",
+            "Alliteration"
+          ],
+          "groupIds": [
+            "g1776981742140",
+            "g1776981808956"
+          ],
+          "mcCorrectIndices": [
+            2
+          ],
+          "taskPicto": "",
+          "wsOffsetMm": 0,
+          "wsOpenLines": 4
+        },
+        {
+          "id": "t1776982194609",
+          "nr": "2",
+          "label": "In welcher Zeitform steht der folgende Satz: 'Nachdem er das Buch gelesen hatte, legte er sich schlafen.'?",
+          "maxPunkte": 20,
+          "kategorie": "",
+          "taskType": "mc",
+          "mcOptions": [
+            "Futur II",
+            "Perfekt",
+            "Plusquamperfekt",
+            "Präteritum"
+          ],
+          "groupIds": [
+            "g1776981742140",
+            "g1776981808956"
+          ],
+          "mcCorrectIndices": [
+            2
+          ],
+          "taskPicto": "",
+          "wsOffsetMm": 0,
+          "wsOpenLines": 4
+        },
+        {
+          "id": "t1776982278125",
+          "nr": "3",
+          "label": "Welches der folgenden Merkmale ist bezeichnend für die Literaturepoche der Aufklärung (ca. 1720–1790)?",
+          "maxPunkte": 5,
+          "kategorie": "",
+          "taskType": "mc",
+          "mcOptions": [
+            "Die Orientierung an der Vernunft und dem Verstand",
+            "Die Rückbesinnung auf das Mittelalter",
+            "Die Darstellung des Hässlichen und Kranken",
+            "Die Betonung von Gefühl und Fantasie"
+          ],
+          "groupIds": [
+            "g1776981742140",
+            "g1776981808956"
+          ],
+          "mcCorrectIndices": [
+            0
+          ],
+          "taskPicto": "",
+          "wsOffsetMm": 0,
+          "wsOpenLines": 4
+        },
+        {
+          "id": "t1776982353970",
+          "nr": "4",
+          "label": "Wann schreibt man das Wort 'dass' mit Doppel-s (nach der aktuellen Rechtschreibung)?",
+          "maxPunkte": 20,
+          "kategorie": "",
+          "taskType": "mc",
+          "mcOptions": [
+            "Wenn es als Demonstrativpronomen auf etwas Bestimmtes hinweist.",
+            "Wenn es eine untergeordnete Konjunktion ist, die einen Nebensatz einleitet und durch \"dieses\" oder \"jenes\" ersetzt werden kann.",
+            "Wenn es als Artikel vor einem Substantiv steht.",
+            "Wenn es sich auf ein vorangegangenes Nomen bezieht und \"welches\" ersetzt werden kann."
+          ],
+          "groupIds": [
+            "g1776981808956",
+            "g1776981742140"
+          ],
+          "mcCorrectIndices": [
+            1
+          ],
+          "taskPicto": "",
+          "wsOffsetMm": 0,
+          "wsOpenLines": 4
+        }
+      ],
+      "students": [
+        {
+          "id": "s177698175859601i3v45n",
+          "anrede": "Herr",
+          "nachname": "Akaoui",
+          "vorname": "Mohamed Jusef",
+          "groupId": "",
+          "scores": {},
+          "mcResponses": {},
+          "answerTexts": {},
+          "absent": true,
+          "openApprovals": {}
+        },
+        {
+          "id": "s17769817585961v9jqmsk",
+          "anrede": "Herr",
+          "nachname": "Baisakal",
+          "vorname": "Brendon",
+          "groupId": "g1776981742140",
+          "scores": {
+            "t1776982127896": 0,
+            "t1776982278125": 0,
+            "t1776982194609": 20,
+            "t1776982353970": 20
+          },
+          "mcResponses": {
+            "t1776982127896": [
+              1
+            ],
+            "t1776982278125": [
+              1
+            ],
+            "t1776982194609": [
+              2
+            ],
+            "t1776982353970": [
+              1
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s17769817585962bvzd3gm",
+          "anrede": "Herr",
+          "nachname": "Boudart",
+          "vorname": "Vincent",
+          "groupId": "g1776981742140",
+          "scores": {
+            "t1776982194609": 0,
+            "t1776982127896": 20,
+            "t1776982278125": 5,
+            "t1776982353970": 0
+          },
+          "mcResponses": {
+            "t1776982194609": [
+              0
+            ],
+            "t1776982127896": [
+              2
+            ],
+            "t1776982278125": [
+              0
+            ],
+            "t1776982353970": [
+              0
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s17769817585963gp7q0mi",
+          "anrede": "Herr",
+          "nachname": "Chahrour",
+          "vorname": "Jihad",
+          "groupId": "g1776981742140",
+          "scores": {
+            "t1776982194609": 0,
+            "t1776982127896": 0,
+            "t1776982278125": 5,
+            "t1776982353970": 0
+          },
+          "mcResponses": {
+            "t1776982194609": [
+              3
+            ],
+            "t1776982127896": [
+              1
+            ],
+            "t1776982278125": [
+              0
+            ],
+            "t1776982353970": [
+              0
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s17769817585964ey2g5yi",
+          "anrede": "Frau",
+          "nachname": "Dudda",
+          "vorname": "Victoria",
+          "groupId": "g1776981742140",
+          "scores": {
+            "t1776982127896": 20,
+            "t1776982194609": 20,
+            "t1776982278125": 5,
+            "t1776982353970": 0
+          },
+          "mcResponses": {
+            "t1776982127896": [
+              2
+            ],
+            "t1776982194609": [
+              2
+            ],
+            "t1776982278125": [
+              0
+            ],
+            "t1776982353970": [
+              3
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s17769817585965m5puz6i",
+          "anrede": "Herr",
+          "nachname": "Ertekin",
+          "vorname": "Mikail",
+          "groupId": "g1776981742140",
+          "scores": {
+            "t1776982127896": 20,
+            "t1776982194609": 0,
+            "t1776982278125": 5,
+            "t1776982353970": 20
+          },
+          "mcResponses": {
+            "t1776982127896": [
+              2
+            ],
+            "t1776982194609": [
+              1
+            ],
+            "t1776982278125": [
+              0
+            ],
+            "t1776982353970": [
+              1
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s17769817585966t36qfa9",
+          "anrede": "Frau",
+          "nachname": "Ewert",
+          "vorname": "Cayenne",
+          "groupId": "g1776981742140",
+          "scores": {
+            "t1776982353970": 0,
+            "t1776982278125": 0,
+            "t1776982194609": 0,
+            "t1776982127896": 20
+          },
+          "mcResponses": {
+            "t1776982353970": [
+              0
+            ],
+            "t1776982278125": [
+              3
+            ],
+            "t1776982194609": [
+              3
+            ],
+            "t1776982127896": [
+              2
+            ]
+          },
+          "answerTexts": {},
+          "absent": true,
+          "openApprovals": {}
+        },
+        {
+          "id": "s17769817585967gk2ncn3",
+          "anrede": "Frau",
+          "nachname": "Güclüdal",
+          "vorname": "Ilayda",
+          "groupId": "g1776981742140",
+          "scores": {
+            "t1776982127896": 0,
+            "t1776982194609": 20,
+            "t1776982278125": 5,
+            "t1776982353970": 20
+          },
+          "mcResponses": {
+            "t1776982127896": [
+              1
+            ],
+            "t1776982194609": [
+              2
+            ],
+            "t1776982278125": [
+              0
+            ],
+            "t1776982353970": [
+              1
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s17769817585968jy7ahur",
+          "anrede": "Herr",
+          "nachname": "Harnack",
+          "vorname": "Leon",
+          "groupId": "g1776981742140",
+          "scores": {
+            "t1776982353970": 0,
+            "t1776982278125": 5,
+            "t1776982194609": 20,
+            "t1776982127896": 20
+          },
+          "mcResponses": {
+            "t1776982353970": [
+              0
+            ],
+            "t1776982278125": [
+              0
+            ],
+            "t1776982194609": [
+              2
+            ],
+            "t1776982127896": [
+              2
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s17769817585969bit9c7n",
+          "anrede": "Herr",
+          "nachname": "Ivov",
+          "vorname": "Anastas",
+          "groupId": "g1776981742140",
+          "scores": {
+            "t1776982127896": 0,
+            "t1776982194609": 20,
+            "t1776982278125": 0,
+            "t1776982353970": 20
+          },
+          "mcResponses": {
+            "t1776982127896": [
+              1
+            ],
+            "t1776982194609": [
+              2
+            ],
+            "t1776982278125": [
+              1
+            ],
+            "t1776982353970": [
+              1
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s1776981758596109iq6oab",
+          "anrede": "Frau",
+          "nachname": "Jensik",
+          "vorname": "Natalie",
+          "groupId": "g1776981742140",
+          "scores": {},
+          "mcResponses": {},
+          "answerTexts": {},
+          "absent": true,
+          "openApprovals": {}
+        },
+        {
+          "id": "s177698175859611ywai5qk",
+          "anrede": "Herr",
+          "nachname": "Joaquim",
+          "vorname": "Duene",
+          "groupId": "g1776981808956",
+          "scores": {
+            "t1776982127896": 20,
+            "t1776982194609": 20,
+            "t1776982278125": 5,
+            "t1776982353970": 20
+          },
+          "mcResponses": {
+            "t1776982127896": [
+              2
+            ],
+            "t1776982194609": [
+              2
+            ],
+            "t1776982278125": [
+              0
+            ],
+            "t1776982353970": [
+              1
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s17769817585961205jd25y",
+          "anrede": "Herr",
+          "nachname": "Kiper",
+          "vorname": "Tugra",
+          "groupId": "g1776981808956",
+          "scores": {
+            "t1776982353970": 0,
+            "t1776982278125": 0,
+            "t1776982194609": 20,
+            "t1776982127896": 20
+          },
+          "mcResponses": {
+            "t1776982353970": [
+              0
+            ],
+            "t1776982278125": [
+              2
+            ],
+            "t1776982194609": [
+              2
+            ],
+            "t1776982127896": [
+              2
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s17769817585961358ga1ku",
+          "anrede": "Frau",
+          "nachname": "Marecki",
+          "vorname": "Alina",
+          "groupId": "g1776981808956",
+          "scores": {
+            "t1776982127896": 0,
+            "t1776982194609": 20,
+            "t1776982278125": 0,
+            "t1776982353970": 20
+          },
+          "mcResponses": {
+            "t1776982127896": [
+              1
+            ],
+            "t1776982194609": [
+              2
+            ],
+            "t1776982278125": [
+              1
+            ],
+            "t1776982353970": [
+              1
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s177698175859614eqptx0y",
+          "anrede": "Frau",
+          "nachname": "Miah",
+          "vorname": "Monia",
+          "groupId": "g1776981808956",
+          "scores": {
+            "t1776982353970": 0,
+            "t1776982278125": 5,
+            "t1776982194609": 0,
+            "t1776982127896": 20
+          },
+          "mcResponses": {
+            "t1776982353970": [
+              0
+            ],
+            "t1776982278125": [
+              0
+            ],
+            "t1776982194609": [
+              3
+            ],
+            "t1776982127896": [
+              2
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s177698175859615dfm8y22",
+          "anrede": "Herr",
+          "nachname": "Osmanovic",
+          "vorname": "Manuel",
+          "groupId": "g1776981808956",
+          "scores": {
+            "t1776982127896": 0,
+            "t1776982194609": 20,
+            "t1776982278125": 5,
+            "t1776982353970": 20
+          },
+          "mcResponses": {
+            "t1776982127896": [
+              1
+            ],
+            "t1776982194609": [
+              2
+            ],
+            "t1776982278125": [
+              0
+            ],
+            "t1776982353970": [
+              1
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s1776981758596166wv083q",
+          "anrede": "Herr",
+          "nachname": "Sariyerli",
+          "vorname": "Mustafa",
+          "groupId": "g1776981808956",
+          "scores": {
+            "t1776982127896": 20,
+            "t1776982194609": 20,
+            "t1776982278125": 5,
+            "t1776982353970": 20
+          },
+          "mcResponses": {
+            "t1776982127896": [
+              2
+            ],
+            "t1776982194609": [
+              2
+            ],
+            "t1776982278125": [
+              0
+            ],
+            "t1776982353970": [
+              1
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s177698175859617yfa5gu1",
+          "anrede": "Frau",
+          "nachname": "Seigfried",
+          "vorname": "Angelique",
+          "groupId": "g1776981808956",
+          "scores": {
+            "t1776982353970": 0,
+            "t1776982278125": 5,
+            "t1776982194609": 20,
+            "t1776982127896": 20
+          },
+          "mcResponses": {
+            "t1776982353970": [
+              0
+            ],
+            "t1776982278125": [
+              0
+            ],
+            "t1776982194609": [
+              2
+            ],
+            "t1776982127896": [
+              2
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s177698175859618u3crxbd",
+          "anrede": "Herr",
+          "nachname": "Tingir",
+          "vorname": "Umut",
+          "groupId": "g1776981808956",
+          "scores": {
+            "t1776982127896": 20,
+            "t1776982194609": 20,
+            "t1776982278125": 0,
+            "t1776982353970": 20
+          },
+          "mcResponses": {
+            "t1776982127896": [
+              2
+            ],
+            "t1776982194609": [
+              2
+            ],
+            "t1776982278125": [
+              2
+            ],
+            "t1776982353970": [
+              1
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        },
+        {
+          "id": "s177698175859619636280e",
+          "anrede": "Herr",
+          "nachname": "Tschirpke",
+          "vorname": "Jan",
+          "groupId": "g1776981808956",
+          "scores": {},
+          "mcResponses": {},
+          "answerTexts": {},
+          "absent": true,
+          "openApprovals": {}
+        },
+        {
+          "id": "s1776981758596202ly3gku",
+          "anrede": "Herr",
+          "nachname": "Türkmen",
+          "vorname": "Emre",
+          "groupId": "g1776981808956",
+          "scores": {
+            "t1776982353970": 0,
+            "t1776982278125": 5,
+            "t1776982194609": 0,
+            "t1776982127896": 0
+          },
+          "mcResponses": {
+            "t1776982353970": [
+              0
+            ],
+            "t1776982278125": [
+              0
+            ],
+            "t1776982194609": [
+              3
+            ],
+            "t1776982127896": [
+              3
+            ]
+          },
+          "answerTexts": {},
+          "absent": false,
+          "openApprovals": {}
+        }
+      ]
+    },
+    {
+      "id": "c17769815179466kye",
+      "name": "AVöD II",
+      "meta": {
+        "testName": "",
+        "datum": "",
+        "schuljahr": "",
+        "kurs": "",
+        "worksheetRichHtml": "",
+        "worksheetHeading": "",
+        "worksheetShowGrid": false,
+        "worksheetInsertions": [],
+        "worksheetFreeMode": false,
+        "worksheetCanvasSnap": true,
+        "worksheetCanvasGridMm": 4,
+        "worksheetPreviewGridMm": 8,
+        "worksheetCanvas": {
+          "items": []
+        }
+      },
+      "groups": [],
+      "tasks": [],
+      "students": []
+    }
+  ],
+  "activeClassId": "c1776953665001a4is",
+  "archive": [],
+  "appTestName": "Multiple Choice Test"
+}
