@@ -2561,7 +2561,7 @@ function htmlArchivFortschrittKarte(c){
         </tr>`;
       }).join('');
       rest=`<div class="tbl-wrap"><table class="tbl-link" style="font-size:13px">
-        <thead><tr><th>Teilnehmer/in</th><th style="text-align:right">aktuell NP</th><th style="text-align:right">Archiv NP</th><th style="text-align:right">Δ NP</th></tr></thead>
+        <thead><tr><th>Teilnehmer</th><th style="text-align:right">aktuell NP</th><th style="text-align:right">Archiv NP</th><th style="text-align:right">Δ NP</th></tr></thead>
         <tbody>${trs}</tbody>
       </table></div>`;
     }
@@ -2924,7 +2924,7 @@ function renderKurs(){
     document.getElementById('content').innerHTML=classCard;
     return;
   }
-  document.getElementById('content').innerHTML=classCard+`<h2 class="kurs-section-h" id="kurs-tn">Teilnehmende</h2>`+kursBuildStudentsSection(c0);
+  document.getElementById('content').innerHTML=classCard+`<h2 class="kurs-section-h" id="kurs-tn">Teilnehmer</h2>`+kursBuildStudentsSection(c0);
 }
 function openAddClassModal(){
   const suggest='Klasse '+(state.classes.length+1);
@@ -3169,7 +3169,7 @@ function renderBewertung(){
     <div class="bew-wrap">
       <table class="bew-table">
         <thead><tr>
-          <th class="bew-sticky" style="left:0;min-width:200px;z-index:3">Teilnehmer/in</th>
+          <th class="bew-sticky" style="left:0;min-width:200px;z-index:3">Teilnehmer</th>
           ${thTasks}
           <th>Σ</th>
         </tr></thead>
@@ -3345,9 +3345,9 @@ function buildWorksheetRightRailHtml(c, wTasks, insBlockStr){
     <div class="ws-rail-sec no-print" style="padding-top:0">
       <h3>Start</h3>
       <div class="ws-rail-btns">
-        <button type="button" class="btn btn-primary btn-sm" onclick="applyWorksheetPreset('test')">Klausur</button>
+        <button type="button" class="btn btn-primary btn-sm" onclick="applyWorksheetPreset('test')">Test</button>
         <button type="button" class="btn btn-ghost btn-sm" onclick="applyWorksheetPreset('practice')">Übung</button>
-        <button type="button" class="btn btn-ghost btn-sm" onclick="applyWorksheetPreset('creative')">Kopf</button>
+        <button type="button" class="btn btn-ghost btn-sm" onclick="applyWorksheetPreset('creative')">Minimal</button>
         <button type="button" class="btn btn-ghost btn-sm" onclick="applyWorksheetPreset('blank')">Leer</button>
       </div>
     </div>`;
@@ -3380,7 +3380,7 @@ function buildWorksheetRightRailHtml(c, wTasks, insBlockStr){
       <button type="button" class="btn btn-ghost btn-sm" style="margin-top:4px" onclick="addWorksheetInsertionBlock()">+ Satz</button>
     </div>
     <div class="ws-rail-sec no-print" style="border-bottom:none">
-      <button type="button" class="btn btn-primary btn-sm" style="width:100%" onclick="applyWorksheetPreset('test')">Klausur als Seite bauen</button>
+      <button type="button" class="btn btn-primary btn-sm" style="width:100%" onclick="applyWorksheetPreset('test')">Test als Seite bauen</button>
     </div>`;
   return wsl+blatt+`
     <div class="ws-rail-sec no-print">
@@ -4730,7 +4730,7 @@ function htmlTaskEditorCard(c,t,displayNum,isSub,showAddSubBtn){
   const mcBtns=isMc?`<div class="task-mc-actions">
         <button type="button" class="btn btn-ghost btn-sm" onclick="addMcOption('${t.id}')">+ Option</button>
         ${(t.mcOptions||[]).length>4?`<button type="button" class="btn btn-ghost btn-sm" onclick="removeMcOption('${t.id}')">Letzte Option entfernen</button>`:''}
-        <button type="button" class="btn btn-ghost btn-sm" onclick="clearTaskMcCorrect('${t.id}')">Muster zurücksetzen</button>
+        <button type="button" class="btn btn-ghost btn-sm" onclick="clearTaskMcCorrect('${t.id}')">Antwort zurücksetzen</button>
       </div>`:'';
   const grpPick=!isSub&&c.groups.length?`<div class="task-grp-block">
         <span class="section-label" style="margin-top:0">Gilt für Gruppen</span>
@@ -4983,7 +4983,7 @@ function openGroupAssignModal(gid){
   const c=getActiveClass(); if(!c) return;
   const g=c.groups.find(x=>x.id===gid); if(!g) return;
   if(!c.students.length){
-    showModal('Keine Teilnehmenden', '',()=>true,{okLabel:'OK',wide:true});
+    showModal('Keine Teilnehmer', '',()=>true,{okLabel:'OK',wide:true});
     return;
   }
   const gTitle=esc((g.name||'Gruppe').trim()+(g.text? ' – '+g.text:''));
@@ -5013,7 +5013,7 @@ function openGroupAssignModal(gid){
   root.className='modal-backdrop';
   root.innerHTML=`<div class="modal modal-wide modal-tn-assign" role="dialog" aria-modal="true" aria-labelledby="ga-modal-h" onclick="event.stopPropagation()">
     <div class="modal-header">
-      <div class="modal-title" id="ga-modal-h">Teilnehmende zuweisen</div>
+      <div class="modal-title" id="ga-modal-h">Teilnehmer zuweisen</div>
       <button type="button" class="modal-close" data-ga-close aria-label="Schlie&szlig;en">&#x2715;</button>
     </div>
     <div class="modal-body">${body}</div>
