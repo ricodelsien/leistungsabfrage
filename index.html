@@ -1275,7 +1275,7 @@ html[data-surface="schlicht"] .font-choice-btn.active{box-shadow:inset 0 1px 0 r
     </button>
     <button class="nav-btn" data-view="importexport" data-requires-class="0" onclick="nav('importexport')">
       <span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v10"/><path d="M8.5 7.5 12 4l3.5 3.5"/><path d="M5 15v4h14v-4"/></svg></span>
-      Import / Export
+      Import & Export
     </button>
   </nav>
 
@@ -2727,14 +2727,14 @@ function renderHome(){
   const hasCls=state.classes.length>0;
   const pulseNewTest=!hasMeaningfulTestData();
   const wheelSlices=[
-    {k:'kurs', step:'1', lab:['Klasse','& TN']},
-    {k:'pruefgruppe', step:'2', lab:['Prüfung','& Gruppen']},
-    {k:'material', step:'3', lab:['Aufgaben','Blatt']},
-    {k:'gradeTable', step:'4', lab:['Noten','Skala']},
+    {k:'kurs', step:'1', lab:['Klasse','erstellen']},
+    {k:'pruefgruppe', step:'2', lab:['Prüfung','erstellen']},
+    {k:'material', step:'3', lab:['Aufgaben','& AB']},
+    {k:'gradeTable', step:'4', lab:['Noten /','Bewertung']},
     {k:'bewertung', step:'5', lab:['Korrektur']},
-    {k:'overview', step:'6', lab:['Klassen','Auswertung']},
+    {k:'overview', step:'6', lab:['Auswertung']},
     {k:'archive', step:'7', lab:[arcCount?'Archiv ('+arcCount+')':'Archiv']},
-    {k:'importexport', step:'8', lab:['Import','Export']}
+    {k:'importexport', step:'8', lab:['Import','& Export']}
   ];
   let svgPaths='';
   let lblWrap='';
