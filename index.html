@@ -4643,13 +4643,13 @@ function renderPruefungGruppen(){
         <div class="form-row">
           <div class="form-group"><label class="form-label">Pr&uuml;fungsname / Titel</label>
             <input class="form-input" id="pi-name" value="${esc(c.meta.testName)}" placeholder=""></div>
-          <div class="form-group"><label class="form-label">Kurs / Klasse (Anzeige)</label>
+          <div class="form-group"><label class="form-label">Kurs</label>
             <input class="form-input" id="pi-kurs" value="${esc(c.meta.kurs)}" placeholder=""></div>
         </div>
         <div class="form-row">
           <div class="form-group"><label class="form-label">Datum</label>
             <input class="form-input" id="pi-datum" type="date" value="${c.meta.datum}"></div>
-          <div class="form-group"><label class="form-label">Schuljahr</label>
+          <div class="form-group"><label class="form-label">Jahrgang</label>
             <input class="form-input" id="pi-jahr" value="${esc(c.meta.schuljahr)}" placeholder=""></div>
         </div>
       </div>
@@ -4700,7 +4700,7 @@ function renderPruefungGruppen(){
   const actionsFooter=`
     <div class="card pruf-actions-footer" role="region" aria-label="Prüfung speichern">
       <div class="card-body">
-        <p class="pruf-actions-footer__hint">Hier die Prüfung festhalten: Angaben oben und Gruppen unten werden gemeinsam gespeichert.</p>
+        <p class="pruf-actions-footer__hint">Prüfungsangabe und Gruppen werden hier gespeichert.</p>
         <div class="pruf-actions-footer__actions">
           <button type="button" class="btn btn-ghost" onclick="addGroup()">+ Gruppe</button>
           <button type="button" class="btn btn-primary" onclick="savePruefungsinfo()">Prüfung speichern</button>
